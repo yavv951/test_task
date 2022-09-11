@@ -1,4 +1,4 @@
-# API ana UI tests different web resourses
+# API and UI tests different web resourses
 
 # How to start
 - Use python 3.8 + Create and activate virtual environments
