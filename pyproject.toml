@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Tests for interviews"
+version = "1.0.0"
+description = "Autotests for API and UI"
+authors = ["yavv951 <vadimv95189@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+allure-pytest = "^2.10.0"
+
+[tool.poetry.dev-dependencies]
+selene = "2.0.0b8"
+pytest = "^7.1.3"
+Faker = "^14.2.0"
+pydantic = "^1.10.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
